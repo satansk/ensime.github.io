@@ -17,11 +17,9 @@ This [maven](https://maven.apache.org/) plugin generates a `.ensime` file for us
 Configure your `~/.m2/settings.xml` file so that maven is aware of the plugin group `org.ensime.maven.plugins`:
 
 ```xml
-<build>
-  <pluginGroups>
-    <pluginGroup>org.ensime.maven.plugins</pluginGroup>
-  </pluginGroups>
-</build>
+<pluginGroups>
+  <pluginGroup>org.ensime.maven.plugins</pluginGroup>
+</pluginGroups>
 ```
 
 Or you can add the following to your `pom` file:
