@@ -85,7 +85,7 @@ you can execute this without restarting Emacs by moving the cursor ("point" in E
 To update all [MELPA](http://melpa.org/#/) packages, type:
 
 ```
-M-x list-packages [RETURN] U [RETURN] x [RETURN]
+M-x list-packages [RETURN] U [RETURN] x yes [RETURN]
 ```
 
 or invoke the `package-utils-upgrade-all` function from `package-utils`.
